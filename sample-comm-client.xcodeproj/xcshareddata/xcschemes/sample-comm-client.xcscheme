@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "1320"
+   version = "1.7">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3AD719A8284793AE00DECC96"
+               BuildableName = "sample-comm-client.app"
+               BlueprintName = "sample-comm-client"
+               ReferencedContainer = "container:sample-comm-client.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3AD719BE284793B300DECC96"
+               BuildableName = "sample-comm-clientTests.xctest"
+               BlueprintName = "sample-comm-clientTests"
+               ReferencedContainer = "container:sample-comm-client.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3AD719C8284793B300DECC96"
+               BuildableName = "sample-comm-clientUITests.xctest"
+               BlueprintName = "sample-comm-clientUITests"
+               ReferencedContainer = "container:sample-comm-client.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3AD719A8284793AE00DECC96"
+            BuildableName = "sample-comm-client.app"
+            BlueprintName = "sample-comm-client"
+            ReferencedContainer = "container:sample-comm-client.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3AD719A8284793AE00DECC96"
+            BuildableName = "sample-comm-client.app"
+            BlueprintName = "sample-comm-client"
+            ReferencedContainer = "container:sample-comm-client.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Debug"
+      revealArchiveInOrganizer = "YES">
+      <PostActions>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Run Script"
+               scriptText = "# Type a script or drag a script file from your workspace to insert its path.&#10;ARCHIVE_DIR=$(dirname &quot;${ARCHIVE_PATH}&quot;)&#10;ARCHIVE_NAME=$(basename &quot;${ARCHIVE_PATH}&quot;)&#10;cd &quot;${ARCHIVE_DIR}&quot;&#10;echo &quot;Protecting ${ARCHIVE_NAME}&quot; &gt;&gt;post-build.log&#10;ixguard -config=/Users/anton/Development/apple/blog/sample-comm/protection/ixguard.yml &quot;${ARCHIVE_PATH}&quot; -o &quot;${ARCHIVE_DIR}/protected_${ARCHIVE_NAME}&quot;&#10;">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "3AD719A8284793AE00DECC96"
+                     BuildableName = "sample-comm-client.app"
+                     BlueprintName = "sample-comm-client"
+                     ReferencedContainer = "container:sample-comm-client.xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
+            </ActionContent>
+         </ExecutionAction>
+      </PostActions>
+   </ArchiveAction>
+</Scheme>
