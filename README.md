@@ -1,6 +1,7 @@
 # Guardsquare Multi-User Chat Hackme Example
 
 [![guardsquare-twitter](https://img.shields.io/twitter/follow/guardsquare?style=social)](https://twitter.com/Guardsquare)
+[![license](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 
 An example of a simple chat app for iOS designed to illustrate reverse-engineering and tampering techniques in Guardsquare blogs, videos, and other education materials.
 
